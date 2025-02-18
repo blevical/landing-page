@@ -8,7 +8,7 @@
 .menu-container {
     /* ... */
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     color: #CE1141;
     background-color: #000000;
     padding: 20px 0;
@@ -27,6 +27,7 @@
     border-radius: 4px;
     width: 65px;
     height: auto;
+    text-align: center;
 }
 .website_information {
     background-color: white;
