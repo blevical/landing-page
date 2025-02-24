@@ -17,12 +17,13 @@ footer {
 }
 
 ul {
+    display: flex;
     text-decoration: none;
     gap: 15px;
     list-style-type: none;
 }
-
-.links {
+.menu {
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
+    text-decoration: none;
 }
