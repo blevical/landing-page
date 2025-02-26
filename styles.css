@@ -1,19 +1,25 @@
 header {
-  background-color: #1F2937;
+   background-color: #1F2937;
+   width: 100%;
 }
 
 body {
 display: flex;
+flex-direction: column;
 }
 
 footer {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-right: 15px;
+    width: 100%;
 }
 
 ul {
@@ -22,7 +28,55 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color:red
+}
+
 .links {
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.awesome {
+    text-size-adjust: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header-title {
+    font-weight: 900;
+    color: #F9FAF8;
+    size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.mountain {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
