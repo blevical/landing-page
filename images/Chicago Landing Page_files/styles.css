@@ -1,27 +1,23 @@
 header {
    background-color: #1F2937;
    width: 100%;
-   padding-bottom: 100px;
 }
 
 body {
 display: flex;
 flex-direction: column;
 justify-content: center;
-width: auto;
 }
 
 footer {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
-    color: white;
 }
 
 .header {
@@ -38,7 +34,7 @@ ul {
 }
 
 a {
-    color:white
+    color:red
 }
 
 .links {
@@ -55,20 +51,13 @@ a {
 
 .button {
     background-color: #3882F6;
-    display: inline-block;
+    border: none;
     color: white;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    margin-left: 100px;
-}
-
-.button:hover {
-    background-color: #E5E7EB;
-    color: #3882F6;
 }
 
 .header-title {
@@ -80,7 +69,14 @@ a {
     justify-content: space-between;
     text-wrap: wrap;
     box-sizing: border-box;
-    padding-left: 100px;
+}
+
+.mountain {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .header-text {
@@ -88,30 +84,32 @@ a {
     color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    text-wrap: wrap;
-    padding-left: 100px;
 }
 
 .illustrations {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.seattle {
+    display: flex;
+}
+
+.seattle-city {
+    display: flex;
+}
+
+.chicago {
+    display: flex;
+}
+
+.real-estate {
+    display: flex;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: #E5E7EB;
-    width: 100%;
-    text-align: center;
-    font-size: 36px;
-    color: #1F2937;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
     justify-content: center;
 }
