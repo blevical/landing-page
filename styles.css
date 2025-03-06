@@ -2,6 +2,8 @@ header {
    background-color: #1F2937;
    width: 100%;
    padding-bottom: 100px;
+   border-radius: 25px;
+   padding-top: 15px;
 }
 
 body {
@@ -9,6 +11,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 width: auto;
+align-items: center;
 }
 
 footer {
@@ -16,6 +19,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+    border-radius: 25px;
 }
 
 .footer {
@@ -107,6 +111,7 @@ a {
     text-align: center;
     font-size: 36px;
     color: #1F2937;
+    border-radius: 25px;
 }
 
 ul {
@@ -114,4 +119,17 @@ ul {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 25px;
+    box-sizing: content-box;
+    width: 500px;
+    border: 15px white;
+    border-radius: 25px;
+    margin: 20px;
+    color: white;
 }
