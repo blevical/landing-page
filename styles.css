@@ -19,6 +19,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 20px;
 }
 
 .footer {
@@ -56,20 +57,23 @@ a {
     color: #F9FAF8;
 }
 
-.button {
+button {
     background-color: #3882F6;
-    display: inline-block;
+    border-color: white;
+    display: flex;
     color: white;
     padding: 10px 32px;
     text-align: center;
-    text-decoration: none;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 15px;
     transition-duration: 0.4s;
     margin-left: 100px;
+    height: min-content;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.button:hover {
+button:hover {
     background-color: #E5E7EB;
     color: #3882F6;
 }
@@ -124,13 +128,15 @@ ul {
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    padding: 25px;
-    box-sizing: content-box;
-    width: 500px;
+    width: 700px;
     border: 15px white;
     border-radius: 25px;
     margin: 20px;
     color: white;
+    padding: 0%;
+    padding-left: 15px;
+    align-items: center;
+    padding-right: 20px;
 }
 
 img {
